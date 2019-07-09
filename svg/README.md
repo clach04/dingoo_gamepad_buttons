@@ -1,7 +1,3 @@
-![image](l.svg)
-
-![image](r.svg)
-
 ![image](a.svg)
 
 ![image](b.svg)

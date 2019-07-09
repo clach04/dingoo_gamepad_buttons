@@ -23,7 +23,7 @@ inkscape:output_extension="org.inkscape.output.svg.inkscape"
       display: inline;" id="button"/>
 
   <text xml:space="preserve" style="font-size: 368.374px; font-style: normal; font-weight: normal;
-    fill: rgb(0, 0, 0); fill-opacity: 1;
+    fill: %(highlight)s; fill-opacity: 1;
     stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Bitstream Vera Sans;" x="122.198" y="394.627" id="button_text" transform="scale(1.03315, 0.967914)">
     <tspan sodipodi:role="line" id="tspan4333" x="122.198" y="394.627">%(button)s</tspan>
   </text>
@@ -103,8 +103,14 @@ inkscape:output_extension="org.inkscape.output.svg.inkscape">
     readme = open('README.md', 'w')
 
     #for button in 'up down left right L R A B X Y START SELECT'.split():
-    for button in 'A B X Y'.split():
-        svg = str_template_round % {'button': button}
+    #for button in 'A B X Y'.split():
+    for button, highlight in [
+                    ('A', 'rgb(0, 0, 0)'),
+                    ('B', 'rgb(0, 0, 0)'),
+                    ('X', 'rgb(0, 0, 0)'),
+                    ('Y', 'rgb(0, 0, 0)'),
+                ]:
+        svg = str_template_round % {'button': button, 'highlight': highlight}
         print(svg)
         filename = button.lower() + '.svg'
         f = open(filename, 'w')
