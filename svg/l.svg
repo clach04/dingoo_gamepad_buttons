@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.0"
+id="svg2"
+sodipodi:docname="L.svg"
+sodipodi:version="0.32" inkscape:version="0.46"
+inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="shoulder_group" transform="translate(-3.00381, -1.15209)">
+    <path style="fill: rgb(235, 236, 236); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-width: 14.2164; stroke-miterlimit: 4; stroke-opacity: 1;" d="M 329.88424,8.2988899 C 329.88424,8.2988899 649.65644,-0.97095606 649.65644,267.85458 L 10.112034,267.85458 C 10.112034,-0.97095606 329.88424,8.2988899 329.88424,8.2988899 z" id="shoulder_outer" sodipodi:nodetypes="cccc"/>
+    <text xml:space="preserve" style="font-size: 181.717px; font-style: normal; font-weight: normal; fill: rgb(0, 0, 0); fill-opacity: 1; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; font-family: Bitstream Vera Sans;" x="292.622" y="198.919" id="shoulder_button_text" transform="scale(0.929526, 1.07582)">
+        <tspan sodipodi:role="line" id="tspan3704" x="292.622" y="198.919">L</tspan>
+    </text>
+  </g>
+
+</svg>
