@@ -105,10 +105,10 @@ inkscape:output_extension="org.inkscape.output.svg.inkscape">
     #for button in 'up down left right L R A B X Y START SELECT'.split():
     #for button in 'A B X Y'.split():
     for button, highlight in [
-                    ('A', 'rgb(0, 0, 0)'),
-                    ('B', 'rgb(0, 0, 0)'),
-                    ('X', 'rgb(0, 0, 0)'),
-                    ('Y', 'rgb(0, 0, 0)'),
+                    ('A', 'rgb(255, 192, 203)'),
+                    ('B', 'rgb(0, 0, 255)'),
+                    ('X', 'rgb(0, 255, 0)'),
+                    ('Y', 'rgb(255, 0, 0)'),
                 ]:
         svg = str_template_round % {'button': button, 'highlight': highlight}
         print(svg)
