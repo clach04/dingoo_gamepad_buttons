@@ -110,7 +110,7 @@ inkscape:output_extension="org.inkscape.output.svg.inkscape">
         f = open(filename, 'w')
         f.write(svg)
         f.close()
-        readme.write('![image](%s)\n' % filename)
+        readme.write('![image](%s)\n\n' % filename)
 
 
     for button in 'L R'.split():
@@ -120,7 +120,7 @@ inkscape:output_extension="org.inkscape.output.svg.inkscape">
         f = open(filename, 'w')
         f.write(svg)
         f.close()
-        readme.write('![image](%s)\n' % filename)
+        readme.write('![image](%s)\n\n' % filename)
 
     for button in 'START SELECT'.split():
         svg = str_template_start % {'button': button}
@@ -129,7 +129,7 @@ inkscape:output_extension="org.inkscape.output.svg.inkscape">
         f = open(filename, 'w')
         f.write(svg)
         f.close()
-        readme.write('![image](%s)\n' % filename)
+        readme.write('![image](%s)\n\n' % filename)
 
     #for button in 'up down left right'.split():
     for button, highlight in [('up', 'matrix(0, 1, -1, 0, 600, 0)'), ('down', 'matrix(0, -1, 1, 0, 0, 600)'), ('left', ''), ('right', 'matrix(-1, 0, 0, -1, 600, 600)')]:
@@ -139,7 +139,7 @@ inkscape:output_extension="org.inkscape.output.svg.inkscape">
         f = open(filename, 'w')
         f.write(svg)
         f.close()
-        readme.write('![image](%s)\n' % filename)
+        readme.write('![image](%s)\n\n' % filename)
 
     readme.close()
 
