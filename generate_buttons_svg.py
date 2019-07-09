@@ -103,7 +103,7 @@ inkscape:output_extension="org.inkscape.output.svg.inkscape">
     readme = open('README.md', 'w')
 
     #for button in 'up down left right L R A B X Y START SELECT'.split():
-    for button in 'L R A B X Y'.split():
+    for button in 'A B X Y'.split():
         svg = str_template_round % {'button': button}
         print(svg)
         filename = button.lower() + '.svg'
